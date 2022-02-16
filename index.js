@@ -1,5 +1,17 @@
 function hasTargetSum(array, target) {
   // Write your algorithm here
+  let arraySum = 0;
+  for(let i = 0; i <array.length; ++i) {
+      arraySum = arraySum + array[i];
+      console.log(arraySum);
+  }
+    
+  if (arraySum !== target) {
+    return false;
+  }
+  else {
+    return true;
+  }
 }
 
 /* 
